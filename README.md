@@ -5,7 +5,9 @@ api Interface port [API](nowpayments.io)
 
  - V 1
  
- Log data: `{
+ Log data: 
+ 
+ {
     "payment_id": "5989140170",
     "payment_status": "waiting",
     "pay_address": "0x5C65e88C7cC72b609Fc31075576c49f12ca96A74",
@@ -31,4 +33,4 @@ api Interface port [API](nowpayments.io)
     "is_fee_paid_by_user": false,
     "valid_until": "2023-10-20T07:42:32.577Z",
     "type": "crypto2crypto"
-}`
+}
