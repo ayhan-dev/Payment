@@ -55,6 +55,9 @@ class Pay_API {
 	public function createPayment(array $params) {
 		return $this->data('POST', 'payment', $params);
 	}
+	public function lolPayment(array $params) {
+		return $this->data('POST', 'lol_payment', $params);
+        }
 	public function getPaymentStatus(int $paymentID) {
 		return $this->data('GET', 'payment', $paymentID);
 	}
