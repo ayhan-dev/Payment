@@ -26,8 +26,7 @@ class Pay_API {
 						curl_setopt($ch, CURLOPT_URL, self::API.$endpoint.'?'.$parameters);
 					} else {
 						if($endpoint == 'payment') curl_setopt($ch,CURLOPT_URL, self::API.$endpoint.'/'.$data);
-					}
-				} else {
+					}} else {
 					curl_setopt($ch, CURLOPT_URL, self::API_BASE.$endpoint);
 				}
 				break;
